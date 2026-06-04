@@ -1,5 +1,24 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var n=u(function(c,t){
-var i=require('@stdlib/ml-base-kmeans-algorithm-enum2str/dist'),s=require('@stdlib/ml-base-kmeans-algorithm-str2enum/dist');function o(e){var r=typeof e;return r==="number"?i(e)?e:null:r==="string"?s(e):null}t.exports=o
-});var f=n();module.exports=f;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Return the enumeration constant associated with a supported k-means clustering algorithm value.
+*
+* @module @stdlib/ml-base-kmeans-algorithm-resolve-enum
+*
+* @example
+* var resolve = require( '@stdlib/ml-base-kmeans-algorithm-resolve-enum' );
+*
+* var v = resolve( 'lloyd' );
+* // returns <number>
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
